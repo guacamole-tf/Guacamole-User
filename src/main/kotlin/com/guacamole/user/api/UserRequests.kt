@@ -96,7 +96,7 @@ data class UserRegistrationRequest(
 }
 
 
-data class UserApproveLoginRequest(
+data class UserLoginRequest(
     @get:Email
     val email: String,
     @get:Length
